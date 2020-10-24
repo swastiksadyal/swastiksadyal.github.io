@@ -1,10 +1,11 @@
-﻿@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
 @media only screen and (min-device-width:1025px ) and (max-device-width:4081px) {
     body {
         background-color: black;
         color: floralwhite;
         font-family: 'Share Tech Mono', monospace;
-        font-size: 1.7em;
+        font-size: 18px;
+        overflow-y:hidden;
      
     }
     .menu{
@@ -335,7 +336,7 @@
     .lastlinks {
        text-align:center;
        height:50px;
-       margin-top: 1250px;
+       margin-top: 950px;
     }
 
 
