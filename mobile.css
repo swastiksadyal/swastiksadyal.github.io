@@ -22,11 +22,11 @@
         margin-left: -170px;
     }
     .image_home {
-        background: url("image_assets/bluprint.png") no-repeat;
-        width: 400px;
-        height: 360px;
+        background: url("image_assets/mobile_use.png") no-repeat;
+        width: 800px;
+        height: 600px;
         margin-top: 260px;
-        margin-left: 150px;
+        margin-left: 50px;
     }
     .intro {
         display: inline-block;
@@ -213,14 +213,14 @@ MENU STYLES
   2. The negative value for the bottom property need for hiding half of circle. 
   */
             content: "";
-            width: 1em;
-            height: 1em;
+            width: 1.5em;
+            height: 1.5em;
             font-size: var(--uiMenuCircleSize); /* 1 */
             background-color: var(--uiMenuCircleBackgroundColor);
             border-radius: 50%;
             position: absolute;
-            bottom: -.5em; /* 2 */
-            left: calc(50% - .5em);
+            bottom: -.8em; /* 2 */
+            left: calc(50% - .75em);
             z-index: -1;
             will-change: width, height;
             transition: transform .25s cubic-bezier(0.04, -0.1, 0.29, 0.98), width .25s cubic-bezier(0.04, -0.1, 0.29, 0.98), height .25s cubic-bezier(0.04, -0.1, 0.29, 0.98);
