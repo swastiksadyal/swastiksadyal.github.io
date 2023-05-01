@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="main.css">
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="ghost.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+ 
+
+    <title>🪨📃✂️</title>
+</head>
+<body>
+    <div id="everything">
+        <div id="game">
+    <div class="rock">
+        <h1>
+            Rock, Paper & Scissors!
+        </h1>
+    </div>
+    <div id="scoreSystem">
+        <p id="scoreBoard">
+            Score: <div id="score"></div>
+        </p>
+    </div>
+    <div id="playground">
+        <table><tr>
+            <td>
+                You Chose
+            </td>
+            <td>
+                Computer Chose
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id = "userChoice">
+                        Nothing
+                    </div>
+                </td>
+                <td>
+                    <div id = "botChoice">
+                        Nothing
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div id = "userChoice">
+
+        </div>
+    </div>
+    <div>
+        <p>
+            Choose your choice: 
+        </p>
+    </div>
+    <div id="buttons">
+        <button id="rock" title="Rock" onclick="t('r')">🪨</button>
+        <button id="paper" title="Paper" onclick="t('p')" style="--c:#E95A49">📃</button>
+        <button id="scissors" title="Scissors" onclick="t('s')" style="--c:#495A69">✂️</button>
+    </div>
+    </div>
+    <div id="win" hidden>
+        <div class="container">
+            <div class="title">
+                <h1>Well Done?</h1>
+            </div>
+            <div class="ghost">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div id="lose" hidden>
+        <div class="container">
+            <div class="title">
+                <h1>Try Again!</h1>
+            </div>
+            <div class="ghost">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div id="draw" hidden>
+        <div class="container">
+            <div class="title">
+                <h1>DRAW</h1>
+            </div>
+            <div class="ghost">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+<link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="lose.css">
+</html>
