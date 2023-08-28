@@ -1,0 +1,100 @@
+body, html {
+    background-color: azure;
+  }
+
+  body {
+    padding: 50px;
+    display: flex;
+    flex-flow: wrap;
+    font-family: "Ubuntu", sans-serif;
+}
+
+    body * {
+        box-sizing: border-box;
+    }
+
+  comment {
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: 'Share Tech Mono', monospace;
+    padding: 1.1em;
+}
+
+  .parent-container {
+    padding: 1.2em;
+    text-align: justify;
+    font-size: 1.2em;
+    position: relative;
+    top: 14vh;
+    right: 33vb;
+    padding: 30px;
+  }
+
+.inputBox {
+    position: relative;
+  }
+  
+  .inputBox input {
+    padding: 15px 20px;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    color: #212121;
+    border: 1px solid#212121;
+    font-size: 1em;
+  }
+  
+  .inputBox span {
+    position: absolute;
+    left: 0;
+    font-size: 0.7em;
+    transform: translateX(14px) translateY(-7.5px);
+    padding: 0 6px 1px 5px;
+    border-radius: 2px;
+    background: #e8e8e8;
+    letter-spacing: 1px;
+    border: 1px solid #212121;
+    color: #212121;
+  }
+
+  button {
+    background: #FBCA1F;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+  }
+  
+  button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+  button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+
+  .output{
+    font: bold 200% Consolas, Monaco, monospace;
+    border-bottom: .1em solid black;
+    width: 13.20ch;
+   margin-top: 1.2em;
+   padding: .2em;
+    white-space: nowrap;
+    text-align: justify;
+    font-size: 1.2em;
+  }
+
+  .blog {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    top: 25vh;
+    left: -17vw;
+    right: 10%;
+    transform: translateY(-100%);
+}
